@@ -22,6 +22,7 @@ function shoreditch_jetpack_setup() {
 		'container'      => 'main',
 		'render'         => 'shoreditch_infinite_scroll_render',
 		'footer'         => 'page',
+		'posts_per_page' => shoreditch_woocommerce_products_per_page(),
 		'footer_widgets' => array(
 			'sidebar-2',
 			'sidebar-3',

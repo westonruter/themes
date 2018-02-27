@@ -3,7 +3,7 @@
 Contributors: automattic
 
 Requires at least: 4.5
-Tested up to: 4.6.1
+Tested up to: 4.9.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Shoreditch is a functional and responsive theme perfect for your business’s on
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
 == Installation ==
-	
+
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
