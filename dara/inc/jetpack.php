@@ -24,9 +24,10 @@ function dara_jetpack_setup() {
 	}
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
-		'container' => $container,
-		'render'    => 'dara_infinite_scroll_render',
-		'footer'    => 'page',
+		'container' 		=> $container,
+		'render'    		=> 'dara_infinite_scroll_render',
+		'footer'    		=> 'page',
+		'posts_per_page' 	=> dara_woocommerce_products_per_page(),
 	) );
 
 	add_theme_support( 'featured-content', array(

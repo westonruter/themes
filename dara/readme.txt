@@ -1,10 +1,10 @@
 === Dara ===
 
-Tags: business, blog, bright, modern, professional, blue, light, one-column, two-columns, right-sidebar, author-bio, blog-excerpts, classic-menu, custom-background, custom-colors, custom-header, custom-menu, featured-content-with-pages, featured-images, flexible-header, full-width-template, infinite-scroll, post-slider, rtl-language-support, site-logo, social-menu, testimonials, theme-options, threaded-comments, translation-ready
+Tags: business, blog, bright, modern, professional, blue, light, one-column, two-columns, right-sidebar, author-bio, blog-excerpts, classic-menu, custom-background, custom-colors, custom-header, custom-menu, featured-content-with-pages, featured-images, flexible-header, full-width-template, infinite-scroll, post-slider, rtl-language-support, site-logo, social-menu, testimonials, theme-options, threaded-comments, translation-ready, ecommerce, woocommerce, store
 
 Requires at least: 4.5
-Tested up to: 4.7
-Stable tag: 1.2.0-wpcom
+Tested up to: 4.9.4
+Stable tag: 1.2.1-wpcom
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
