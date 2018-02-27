@@ -17,11 +17,12 @@ function lodestar_jetpack_setup() {
 
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
-		'container' => 'main',
-		'render'    => 'lodestar_infinite_scroll_render',
-		'footer'    => 'page',
-		'wrapper'   => false,
-		'footer_widgets' => array( 'sidebar-2', 'sidebar-3', 'sidebar-4' ),
+		'container' 		=> 'main',
+		'render'    		=> 'lodestar_infinite_scroll_render',
+		'footer'    		=> 'page',
+		'posts_per_page' 	=> lodestar_woocommerce_products_per_page(),
+		'wrapper'   		=> false,
+		'footer_widgets' 	=> array( 'sidebar-2', 'sidebar-3', 'sidebar-4' ),
 	) );
 
 	// Add theme support for Responsive Videos.

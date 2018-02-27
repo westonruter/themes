@@ -283,18 +283,3 @@ function lodestar_woocommerce_jetpack_duplicate_products( $args ) {
  	return $args;
 }
 add_filter( 'infinite_scroll_query_args', 'lodestar_woocommerce_jetpack_duplicate_products', 100 );
-
-/**
- * Override number of products per page in Jetpack infinite scroll.
- *
- * @param  array $args infinite scroll args.
- * @return array       infinite scroll args.
- */
-function lodestar_woocommerce_jetpack_products_per_page( $args ) {
-	if ( is_array( $args ) && ( lodestar_woocommerce_is_shop_page() || is_product_taxonomy() || is_product_category() || is_product_tag() ) ) {
-		$args['posts_per_page'] = lodestar_woocommerce_products_per_page();
-	}
-
-	return $args;
-}
-add_filter( 'infinite_scroll_settings', 'lodestar_woocommerce_jetpack_products_per_page' );
